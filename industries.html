@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Industries — Syntra</title>
+  <meta name="description" content="Syntra's AI solutions are built for your industry. From finance to healthcare, we automate workflows, reduce costs, and accelerate growth across every sector." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a href="index.html" class="brand">
+        <span class="brand-logo">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 5C11 5 9.5 6.5 9.5 8.5C9.5 10.5 11.5 11.5 11.5 11.5C11.5 11.5 7.5 12.5 7.5 15C7.5 17 9 19 13 19"
+              stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M6 5H9.5" stroke="white" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span>Enterprise AI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li class="nav-has-dropdown">
+          <a href="#" class="nav-dropdown-toggle">Solutions <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style="display:inline-block;vertical-align:middle;margin-left:3px"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav-dropdown">
+            <li><a href="ai-sdr.html">AI SDR <span class="nav-live-pill">Live</span></a></li>
+            <li><a href="ai-chatbot.html">AI Chatbot <span class="nav-live-pill">Live</span></a></li>
+            <li><a href="invoice-processing.html">Invoice Processing <span class="nav-live-pill">Live</span></a></li>
+          </ul>
+        </li>
+        <li><a href="industries.html">Industries</a></li>
+        <li><a href="#">Use Cases</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-primary" style="padding: 10px 22px;">Get Started</a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="nav-mobile" id="navMobile">
+      <a href="about.html">About</a>
+      <a href="#">Solutions</a>
+      <a href="ai-sdr.html" style="padding-left:20px;font-size:13px">AI SDR <span class="nav-live-pill">Live</span></a>
+      <a href="ai-chatbot.html" style="padding-left:20px;font-size:13px">AI Chatbot <span class="nav-live-pill">Live</span></a>
+      <a href="invoice-processing.html" style="padding-left:20px;font-size:13px">Invoice Processing <span class="nav-live-pill">Live</span></a>
+      <a href="industries.html">Industries</a>
+      <a href="#">Use Cases</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="sdr-hero reveal">
+    <div class="container">
+      <div class="sdr-hero-inner">
+        <div class="aurora-blob"></div>
+        <div class="chip"><span class="chip-dot"></span> Industries &nbsp;·&nbsp; Built For Every Sector</div>
+        <h1 class="sdr-hero-h1">AI That Works For<br>Your Industry</h1>
+        <p class="sdr-hero-sub">Every sector has unique challenges. Syntra delivers purpose-built AI automation that fits your workflows, compliance needs, and growth goals — out of the box.</p>
+        <div class="sdr-hero-btns">
+          <a href="contact.html" class="btn btn-primary">Talk to an Expert &nbsp;→</a>
+          <a href="#industries" class="btn btn-ghost">Explore Industries</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <section class="section ind-stats-strip reveal">
+    <div class="container">
+      <div class="ind-stats-row">
+        <div class="ind-stat">
+          <span class="ind-stat-num">12+</span>
+          <span class="ind-stat-label">Industries Served</span>
+        </div>
+        <div class="ind-stat-divider"></div>
+        <div class="ind-stat">
+          <span class="ind-stat-num">500+</span>
+          <span class="ind-stat-label">Deployments Worldwide</span>
+        </div>
+        <div class="ind-stat-divider"></div>
+        <div class="ind-stat">
+          <span class="ind-stat-num">70%</span>
+          <span class="ind-stat-label">Average Cost Reduction</span>
+        </div>
+        <div class="ind-stat-divider"></div>
+        <div class="ind-stat">
+          <span class="ind-stat-num">24/7</span>
+          <span class="ind-stat-label">Automated Operations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES GRID -->
+  <section class="section reveal" id="industries">
+    <div class="container">
+      <div class="section-head">
+        <div class="chip"><span class="chip-dot"></span> Sectors</div>
+        <h2 class="h2">Industries We Serve</h2>
+        <p class="section-sub">From startups to enterprises — Syntra adapts to the scale and complexity of any sector.</p>
+      </div>
+      <div class="ind-grid">
+
+        <!-- Finance -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Financial Services</h3>
+          </div>
+          <p class="ind-card-desc">Automate invoice processing, fraud detection, compliance reporting, and customer onboarding with enterprise-grade accuracy.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Invoice Automation</li>
+            <li class="ind-tag">Fraud Detection</li>
+            <li class="ind-tag">Compliance Reporting</li>
+            <li class="ind-tag">KYC Workflows</li>
+          </ul>
+        </div>
+
+        <!-- Healthcare -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Healthcare</h3>
+          </div>
+          <p class="ind-card-desc">Streamline patient intake, appointment scheduling, billing workflows, and support escalations — fully HIPAA-aware.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Patient Intake</li>
+            <li class="ind-tag">Appointment Booking</li>
+            <li class="ind-tag">Medical Billing</li>
+            <li class="ind-tag">24/7 Support Bot</li>
+          </ul>
+        </div>
+
+        <!-- Retail & E-Commerce -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Retail & E-Commerce</h3>
+          </div>
+          <p class="ind-card-desc">Power product recommendations, order tracking, returns handling, and AI-driven sales assistance across every channel.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Order Management</li>
+            <li class="ind-tag">Returns Automation</li>
+            <li class="ind-tag">Sales Chatbot</li>
+            <li class="ind-tag">Inventory Alerts</li>
+          </ul>
+        </div>
+
+        <!-- SaaS & Technology -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">SaaS & Technology</h3>
+          </div>
+          <p class="ind-card-desc">Automate lead qualification, trial onboarding, customer success workflows, and technical support with intelligent AI SDR and chatbots.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Lead Qualification</li>
+            <li class="ind-tag">Trial Onboarding</li>
+            <li class="ind-tag">Customer Success</li>
+            <li class="ind-tag">Tech Support Bot</li>
+          </ul>
+        </div>
+
+        <!-- Real Estate -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Real Estate</h3>
+          </div>
+          <p class="ind-card-desc">Capture and qualify property leads 24/7, automate follow-ups, schedule viewings, and manage vendor invoices with zero manual effort.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Lead Capture</li>
+            <li class="ind-tag">Viewing Scheduler</li>
+            <li class="ind-tag">Vendor Invoices</li>
+            <li class="ind-tag">Follow-up Automation</li>
+          </ul>
+        </div>
+
+        <!-- Logistics -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Logistics & Supply Chain</h3>
+          </div>
+          <p class="ind-card-desc">Automate shipment tracking, supplier invoice reconciliation, delivery notifications, and exception handling across your supply chain.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Shipment Tracking</li>
+            <li class="ind-tag">Invoice Reconciliation</li>
+            <li class="ind-tag">Delivery Alerts</li>
+            <li class="ind-tag">Exception Handling</li>
+          </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Education</h3>
+          </div>
+          <p class="ind-card-desc">Automate student enrollment, fee collection, query resolution, and institutional reporting — freeing educators to focus on teaching.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Student Enrollment</li>
+            <li class="ind-tag">Fee Automation</li>
+            <li class="ind-tag">Query Bot</li>
+            <li class="ind-tag">Reporting</li>
+          </ul>
+        </div>
+
+        <!-- Professional Services -->
+        <div class="ind-card">
+          <div class="ind-card-head">
+            <div class="ind-ico">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 class="ind-card-title">Professional Services</h3>
+          </div>
+          <p class="ind-card-desc">Accelerate client acquisition, automate proposal follow-ups, streamline billing, and keep every engagement on track with AI.</p>
+          <ul class="ind-tag-list">
+            <li class="ind-tag">Client Outreach</li>
+            <li class="ind-tag">Proposal Follow-ups</li>
+            <li class="ind-tag">Billing Automation</li>
+            <li class="ind-tag">Engagement Tracking</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE ADAPT -->
+  <section class="section sdr-steps-section reveal">
+    <div class="container">
+      <div class="section-head">
+        <div class="chip"><span class="chip-dot"></span> Our Approach</div>
+        <h2 class="h2">How We Adapt To You</h2>
+      </div>
+      <div class="sdr-steps">
+
+        <div class="sdr-step">
+          <div class="sdr-step-num">01</div>
+          <h3>Understand Your Workflows</h3>
+          <p>We map your existing processes, pain points, and goals before recommending any solution.</p>
+        </div>
+
+        <div class="sdr-step-arrow">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </div>
+
+        <div class="sdr-step">
+          <div class="sdr-step-num">02</div>
+          <h3>Configure & Integrate</h3>
+          <p>AI is configured to your industry standards and integrated with your existing tools and systems.</p>
+        </div>
+
+        <div class="sdr-step-arrow">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </div>
+
+        <div class="sdr-step">
+          <div class="sdr-step-num">03</div>
+          <h3>Deploy & Measure</h3>
+          <p>Go live in days, not months. Track ROI, automation rates, and efficiency gains from day one.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY SYNTRA -->
+  <section class="section reveal">
+    <div class="container">
+      <div class="section-head">
+        <div class="chip"><span class="chip-dot"></span> Why Syntra</div>
+        <h2 class="h2">Built For Enterprise. Ready For Any Scale.</h2>
+      </div>
+      <div class="sdr-benefits">
+        <div class="sdr-benefit-col">
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Industry-specific workflows out of the box</span>
+          </div>
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Integrates with your existing tools — no rip and replace</span>
+          </div>
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Compliant with GDPR, HIPAA, and SOC 2 standards</span>
+          </div>
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Deployed in days, not months</span>
+          </div>
+        </div>
+        <div class="sdr-benefit-col">
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Scales from 10 to 10,000 users seamlessly</span>
+          </div>
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Dedicated onboarding and support team</span>
+          </div>
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Real-time dashboards and reporting across all workflows</span>
+          </div>
+          <div class="sdr-benefit-item">
+            <span class="sdr-benefit-dot"></span>
+            <span>Continuous AI learning and model improvement</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section reveal">
+    <div class="container">
+      <div class="cta-glow-wrap">
+        <div class="cta-card">
+          <h2 class="cta-heading">Don't See Your Industry?</h2>
+          <p class="cta-sub">We work across many more sectors. Talk to our team and we'll show you exactly how Syntra can work for you.</p>
+          <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+            <a href="contact.html" class="btn btn-primary cta-btn">Talk to an Expert &nbsp;→</a>
+            <a href="contact.html" class="btn btn-ghost cta-btn">Request a Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="company">
+    <div class="container">
+      <div class="foot-grid">
+        <!-- Brand col -->
+        <div class="foot-brand">
+          <a href="index.html" class="brand foot-brand-link">
+            <span class="brand-logo">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M3 3h6v6H3zM11 3h6v4h-6zM11 9h6v8h-4v-4h-2z" fill="#fff" />
+              </svg>
+            </span>
+            <span>Enterprise AI</span>
+          </a>
+          <p class="foot-desc">Syntra is designed to revolution<br>how businesses operate.</p>
+          <div class="foot-socials">
+            <a href="#" class="foot-social" aria-label="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a href="#" class="foot-social" aria-label="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zm2-6a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" />
+              </svg>
+            </a>
+            <a href="#" class="foot-social" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r=".5" fill="currentColor" />
+              </svg>
+            </a>
+            <a href="#" class="foot-social" aria-label="Telegram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Info -->
+        <div class="foot-col">
+          <h5 class="foot-col-title">Info</h5>
+          <a href="about.html">About Us</a>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <!-- Resources -->
+        <div class="foot-col">
+          <h5 class="foot-col-title">Resources</h5>
+          <a href="#">Blog &amp; Article</a>
+          <a href="#">Case Studies</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <!-- Company -->
+        <div class="foot-col">
+          <h5 class="foot-col-title">Company</h5>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms conditions</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>&copy; 2026 Syntra. All rights reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
